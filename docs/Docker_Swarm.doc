@@ -1,0 +1,316 @@
+Date: Thu, 28 Nov 2019 10:53:02 +0100 (CET)
+Message-ID: <871973651.2762.1574934782017@confluence-new.iais.fraunhofer.de>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2761_513583628.1574934782016"
+
+------=_Part_2761_513583628.1574934782016
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Docker Swarm</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Docker Swarm</h1>
+    <div class=3D"Section1">
+        <p>The trusted connectors can be deployed on a cluster of node (or =
+virtual machines). In this page is described the deployment of an example a=
+pplications that uses a data provider connector and a consumer connector wh=
+ose docker containers will be deployed in two hosts. The trusted connector'=
+s source code is <a href=3D"https://github.com/industrial-data-space/truste=
+d-connector/tree/develop/examples/example" class=3D"external-link" rel=3D"n=
+ofollow">hosted on Github</a>. You can follow the documentation to build th=
+e <a href=3D"https://industrial-data-space.github.io/trusted-connector-docu=
+mentation/docs/dev_core/" class=3D"external-link" rel=3D"nofollow">Core Pla=
+tform</a>. After the build of the source code you have to build the docker =
+images for both trusted connectors. The images can be build from the provid=
+ed docker-compose files. Note that all docker swarm node should build these=
+ docker images.</p>
+<h1 id=3D"DockerSwarm-Dockernetworks">Docker networks</h1>
+<p>All the containers of the consumer connector will be member of the "cons=
+umer" network and will all be deployed in the same node. All the containers=
+ of any provider connector will be member of a "provider" network and will =
+be deployed in the same node, different from the consumer connector node.</=
+p>
+<p>Before deploying the services, one important step is to create some exte=
+rnal and attachable networks in overlay driver. In this case, network "webn=
+et", "provider" and "consumer" will be created using the following command:=
+</p>
+<p>$ docker network create -d overlay --attachable webnet</p>
+<p>$ docker network create -d overlay --attachable provider</p>
+<p>$ docker network create -d overlay --attachable consumer</p>
+<p>The following link shows how to use an overlay network&nbsp;<a href=3D"h=
+ttps://docs.docker.com/network/overlay/" class=3D"external-link" rel=3D"nof=
+ollow">https://docs.docker.com/network/overlay/</a></p>
+<h1 id=3D"DockerSwarm-ServiceDeployment">Service Deployment</h1>
+<p>The example application will deploy a consumer connector and two provide=
+r connectors. A trusted 3rd party service (ttp) should also be deployed. Fr=
+om the trusted-connector repository <a href=3D"https://jira.iais.fraunhofer=
+.de/stash/projects/GEC/repos/trusted-connector/browse?at=3Drefs%2Fheads%2Fd=
+evelop" class=3D"external-link" rel=3D"nofollow">root folder</a></p>
+<p>$ cd examples/example</p>
+<p>The services of provider and consumer should be created on the stack "ge=
+c" for example, using the following command line:</p>
+<p><span style=3D"color: rgb(23,43,77);"><span>$&nbsp;</span>docker stack d=
+eploy -c docker-compose-ttp.yaml gec</span></p>
+<p>$ docker stack deploy&nbsp;-c docker-compose-consumer.yaml gec</p>
+<p>$ docker stack deploy -c docker-compose-provider1.yaml gec</p>
+<p>$ docker stack deploy -c docker-compose-provider2.yaml gec</p>
+<p>The following link <a href=3D"https://docs.docker.com/get-started/part4/=
+" class=3D"external-link" rel=3D"nofollow">https://docs.docker.com/get-star=
+ted/part4/</a>&nbsp;shows the detail how services running on swarm.</p>
+<p>All configurations of services are also in those files, docker-compose-p=
+rovider.yaml and docker-compose-consumer.yaml. Provider and consumer are se=
+parately deployed on two nodes. The overlay network should be external and =
+attachable.</p>
+<h1 id=3D"DockerSwarm-UsefulCommands">Useful Commands</h1>
+<h2 id=3D"DockerSwarm-Checkswarmnodes">Check swarm nodes&nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</h2>
+<p>$ docker node ls</p>
+<h2 id=3D"DockerSwarm-Checkserviceinfo">Check service info&nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h2>
+<p>$ docker service ls</p>
+<h2 id=3D"DockerSwarm-Checkspecificservice">Check specific service</h2>
+<p>$ docker service ps &lt;service_name&gt; --no-trunc</p>
+<h2 id=3D"DockerSwarm-Removeallservices">Remove all services</h2>
+<p>$ docker service rm $(docker service ls -q)</p>
+<h2 id=3D"DockerSwarm-Installpinginacontainer">Install ping in a container<=
+/h2>
+<p># apt install iputils-ping</p>
+<h2 id=3D"DockerSwarm-Leaveswarm(onworkernode)">Leave swarm(on worker node)=
+</h2>
+<p>$&nbsp; docker swarm leave</p>
+<h2 id=3D"DockerSwarm-Removenode">Remove node</h2>
+<p>$ docker node rm &lt;node_id&gt;</p>
+<h2 id=3D"DockerSwarm-Addworkernode">Add worker node&nbsp;</h2>
+<p>$ docker swarm &lt;join-token&gt; worker&nbsp;&nbsp;</p>
+<p>(Then swarm will show a command, run this command on worker node)</p>
+<p>When deploying a new container on a swarm node remember to check whether=
+ its image is available on that node. If not you have first to pull it, if =
+the image is available from a docker repository, or build it from its docke=
+r file.&nbsp;</p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_2761_513583628.1574934782016--

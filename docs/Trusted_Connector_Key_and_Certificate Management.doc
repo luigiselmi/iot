@@ -1,0 +1,280 @@
+Date: Thu, 28 Nov 2019 11:10:28 +0100 (CET)
+Message-ID: <2097530856.2786.1574935828476@confluence-new.iais.fraunhofer.de>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2785_1804992483.1574935828476"
+
+------=_Part_2785_1804992483.1574935828476
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Trusted Connector&#39;s Key and Certificate Management</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Trusted Connector&#39;s Key and Certificate Management</h1>
+    <div class=3D"Section1">
+        <p>The trusted connector's secure websocket is configured in the <a=
+ href=3D"https://jira.iais.fraunhofer.de/stash/projects/GEC/repos/trusted-c=
+onnector/browse/ids-comm?at=3Ddevelop" class=3D"external-link" rel=3D"nofol=
+low">ids-comm module</a>. It is based on Jetty websocket-client and websock=
+et-server. The certificates included in the keystores can be created using =
+some scripts and configuration files available in the <a href=3D"https://ji=
+ra.iais.fraunhofer.de/stash/projects/GEC/repos/trusted-connector/browse/cam=
+el-ids/ssl?at=3Ddevelop" class=3D"external-link" rel=3D"nofollow">camel-ids=
+ module</a>. The current version of the trusted connector doesn't check the=
+ validity of the certificates, i.e. their expiration date, the certificatio=
+n authority and other attributes available in the certificate. A connector =
+must have its own private key and X.509 certificate in&nbsp; a Java keystor=
+e. The private key and certificate are created using OpenSSL and then they =
+are included in a keystore. A connector needs also the certificate chain of=
+ the authorities that have signed its certificate. The root CA and sub CA c=
+ertificate must be included in a Java truststore. The script available allo=
+ws the creation of a root CA and sub CA that can be used to sign a connecto=
+r certificate. The steps to create the keystore and truststore are describe=
+d depending on the tool used (OpenSSL, Java keytool)</p>
+<h1 id=3D"TrustedConnector'sKeyandCertificateManagement-OpenSSL">OpenSSL</h=
+1>
+<ol>
+<li>The first step is to create the root CA and sub Ca private keys and the=
+ir certificates using their respective configuration files. The root CA cer=
+tificate will be self-signed and the sub CA certificate will be signed by t=
+he root CA. A script (ca.sh) is provided in the camel-ids module to create =
+the root CA and the sub CA. The output of this step are two files for the r=
+oot CA and two files for the sub CA, one is the private key (extension .key=
+) and the other is the certificate (extension .cert)</li>
+<li>The 2nd step is to create the private keys for the connectors and their=
+ X.509 certificates,&nbsp;using a template configuration file, to be signed=
+ by the sub CA. A bash script (cert.sh) is provided to create the private k=
+ey, a X.509 certificate, signed by the sub CA, and a pkcs#12 file in which =
+are stored the private key and the certificate.&nbsp;</li>
+</ol>
+<h1 id=3D"TrustedConnector'sKeyandCertificateManagement-JavaKeytool">Java K=
+eytool</h1>
+<p>Once the pkcs#12 keystore has been created it can be easily put into a j=
+ava keystore. Java needs also the certificates of the CA authorities, root =
+CA and sub CA, that must be put in a different keystore, called truststore.=
+&nbsp;</p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_2785_1804992483.1574935828476--

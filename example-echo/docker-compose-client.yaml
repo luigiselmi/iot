@@ -1,0 +1,59 @@
+version: '3.3'
+services:
+
+  # TPM simulator
+  ids-tpm2dsim-client:
+    image: fraunhoferaisec/tpm2dsim:develop
+    container_name: tpm-simulator-client
+    volumes:
+      - ./tpm2d-client/:/data/cml/tpm2d/communication/
+    command: /tpm2d/cml-tpm2d
+    networks:
+      - clientnet
+
+  # The core platform, mounts docker control socket and route definition into the image
+  client-core:
+    image: gec/iot-connector-core-platform:example
+    container_name: client-core
+    build:
+      context: '../../karaf-assembly'
+    tty: true
+    stdin_open: true
+    hostname: client-core
+    volumes:
+      - /tmp/ids/log/:/root/data/log/
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./tpm2d-client/:/var/run/tpm2d/
+      - ./system.properties:/root/etc/system.properties
+      - ./connectors-truststore.jks:/root/etc/connectors-truststore.jks
+      - ./client-keystore.jks:/root/etc/client-keystore.jks
+      - ./example-client-routes.xml:/root/deploy/example-client-routes.xml
+    ports:
+      - "5006:5005"
+      - "8182:8181"
+      #- "9292:9292"
+    networks:
+      - webnet
+      - clientnet  
+  
+  # Mosquitto MQTT broker
+  mqtt-broker:
+    image: eclipse-mosquitto:latest
+    networks:
+      - clientnet
+
+  client-app:
+    image: gec/echo-client:example
+    container_name: client-app
+    build:
+      context: './client'
+    ports:
+      - "8081:8081"
+    networks:
+      - clientnet
+
+networks:
+  webnet:
+    external: true
+  clientnet:
+    external: true

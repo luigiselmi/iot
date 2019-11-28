@@ -1,0 +1,54 @@
+version: '3.3'
+services:
+
+  # TPM simulator
+  ids-tpm2dsim-server:
+    image: fraunhoferaisec/tpm2dsim:develop
+    container_name: tpm-sim-server
+    volumes:
+      - ./tpm2d-server/:/data/cml/tpm2d/communication/
+    command: /tpm2d/cml-tpm2d
+    networks:
+      - servernet
+
+  # The core platform, mounts docker control socket and route definition into the image
+  server-core:
+    image: gec/iot-connector-core-platform:example
+    container_name: server-core
+    build:
+      context: '../../karaf-assembly'
+    tty: true
+    stdin_open: true
+    hostname: server-core
+    volumes:
+      - /tmp/ids/log/:/root/data/log/
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./tpm2d-server/:/var/run/tpm2d/
+      - ./system.properties:/root/etc/system.properties
+      - ./server-keystore.jks:/root/etc/server-keystore.jks
+      - ./connectors-truststore.jks:/root/etc/connectors-truststore.jks
+      - ./example-server-routes.xml:/root/deploy/example-server-routes.xml
+    ports:
+      - "5005:5005"
+      - "8181:8181"
+      - "9292:9292"
+    networks:
+      - webnet
+      - servernet
+
+  # Data App (REST consumer, displays web page)
+  server-app:
+    image: gec/echo-server:example
+    container_name: server-app
+    build:
+      context: './server'
+    ports:
+      - "8082:8082"
+    networks:
+      - servernet
+
+networks:
+  webnet:
+    external: true
+  servernet:
+    external: true

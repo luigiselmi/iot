@@ -1,0 +1,338 @@
+Date: Thu, 28 Nov 2019 11:15:13 +0100 (CET)
+Message-ID: <928119364.2788.1574936113669@confluence-new.iais.fraunhofer.de>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2787_929668760.1574936113669"
+
+------=_Part_2787_929668760.1574936113669
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Development tools</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Development tools</h1>
+    <div class=3D"Section1">
+        <p>The tools used for development are&nbsp;</p>
+<ul>
+<li>Confluence (Documentation, this same tool)</li>
+<li><a rel=3D"nofollow" class=3D"external-link" href=3D"https://jira.iais.f=
+raunhofer.de/jira/projects/GEC/summary">JIRA</a>&nbsp;(Project Management)<=
+/li>
+<li><a class=3D"external-link" rel=3D"nofollow" href=3D"https://jira.iais.f=
+raunhofer.de/stash/projects/GEC">Bitbucket</a>&nbsp;(Source code repositori=
+es)</li>
+<li><a href=3D"https://dtr.iais.fraunhofer.de/" class=3D"external-link" rel=
+=3D"nofollow">Sonarqube</a> (Code Quality check)&nbsp;</li>
+<li><a href=3D"https://jira.iais.fraunhofer.de/bamboo/browse/EISGEC" class=
+=3D"external-link" rel=3D"nofollow">Bamboo</a> (Build and Continuous integr=
+ation server)</li>
+<li><a class=3D"external-link" rel=3D"nofollow" href=3D"https://mvn.isst.fr=
+aunhofer.de/nexus">Nexus</a>&nbsp;(ISST Maven artifacts repository)</li>
+<li><a href=3D"http://maven.iais.fraunhofer.de/" class=3D"external-link" re=
+l=3D"nofollow">Artifactory</a> (IAIS Maven artifacts repository)</li>
+<li><a href=3D"https://gitlab.cc-asp.fraunhofer.de/lselmi/gec/container_reg=
+istry" class=3D"external-link" rel=3D"nofollow">Docker registry</a>&nbsp;(d=
+ocker images)</li>
+</ul>
+<h1 id=3D"Developmenttools-JIRA">JIRA</h1>
+<p><br></p>
+<h1 id=3D"Developmenttools-Bitbucket">Bitbucket</h1>
+<p>Bitbucket is the source version control system. It uses the git protocol=
+ so there is no difference in using Bitbucket or Github. The GEC project ha=
+s its own project on Bitbucket, <a href=3D"https://jira.iais.fraunhofer.de/=
+stash/projects/GEC" class=3D"external-link" rel=3D"nofollow">German Edge Cl=
+oud</a>, where software repositories can be created.&nbsp;</p>
+<h1 id=3D"Developmenttools-Sonarqube">Sonarqube</h1>
+<p><br></p>
+<h1 id=3D"Developmenttools-Bamboo">Bamboo</h1>
+<p>Bamboo is used to execute the unit tests, compile the source code, and b=
+uild the artifacts (e.g. .jar files) from the source code. Bamboo must know=
+ where the source code is (i.e. the Bitbucket repository), which build fram=
+ework and command have to be used (e.g. Maven 3.0 with "clean package" as g=
+oal) in order to compile the software, and finally which type of artifacts =
+have to be created (e.g. a Java .jar file). The artifacts created can be de=
+ployed on a server for the integration tests. In order to configure Bamboo =
+to build and create artifacts from a repository you have follow these steps=
+</p>
+<ol>
+<li>Create a project</li>
+<li>Create a plan</li>
+<li>Add the source code repository to the plan</li>
+<li>Define the trigger to start the plan</li>
+<li>Define the artifacts to be created after the plan is executed</li>
+<li>Add a "Checkout Source Code" task to the plan</li>
+<li>Add a "Maven 3.0" task to the plan&nbsp;</li>
+</ol>
+<p>Usually only the Atlassian servers admin can create a project on Bamboo.=
+ You can test your plan running it from Bamboo. You can also check the trig=
+ger by pushing a change to the Bitbucket repository linked to the plan. The=
+ documentation on how to create projects and plans is available from the At=
+lassian website for <a href=3D"https://confluence.atlassian.com/bamboo/unde=
+rstanding-the-bamboo-ci-server-289277285.html" class=3D"external-link" rel=
+=3D"nofollow">Bamboo</a>.</p>
+<h1 id=3D"Developmenttools-Nexus">Nexus</h1>
+<p><br></p>
+<h1 id=3D"Developmenttools-Dockerregistry">Docker registry</h1>
+<p>Fraunhofer provides a&nbsp;<a href=3D"https://info.fraunhofer.de/it/web-=
+server-daten/GitLab/Seiten/default.aspx" class=3D"external-link" rel=3D"nof=
+ollow">docker container registry</a>&nbsp;where docker images can be pushed=
+ and pulled out. This mechanism allows a faster deployment of components be=
+cause there will be no need to build the software or the image of the compo=
+nent on the machine where the component has to be deployed. The image will =
+be build by Bamboo and pushed to the container registry where it can be pul=
+led and deployed on any server where a docker engine is installed. In order=
+ to <a href=3D"https://gitlab.cc-asp.fraunhofer.de/users/sign_in" class=3D"=
+external-link" rel=3D"nofollow">sign-in in the docker registry</a> a user m=
+ust use her Fraunhofer-UserID that is available in the Self-Service tab of =
+the <a href=3D"https://www.directory.fraunhofer.de/" class=3D"external-link=
+" rel=3D"nofollow">Fraunhofer directory</a>&nbsp;(you need to log-in with t=
+he SmartCard to see the tab) together with her Fraunhofer password. Additio=
+nal information about the Fraunhofer Container Registry can be found <a hre=
+f=3D"https://jira.iais.fraunhofer.de/wiki/display/ATLASSIAN/Bamboo-Builds+u=
+nd+Fraunhofer+Docker+Registry#space-menu-link-content" rel=3D"nofollow">her=
+e</a>&nbsp;and <a href=3D"https://jira.iais.fraunhofer.de/wiki/display/ATLA=
+SSIAN/Docker" rel=3D"nofollow">here</a>.</p>
+<h2 id=3D"Developmenttools-ExampleofUsingDockerRegistryforPushingandPulling=
+DockerImages"><span style=3D"color: rgb(0,51,102);">Example of Using Docker=
+ Registry for Pushing and Pulling Docker Images</span></h2>
+<pre>The registry can be found here. The second username(the one for eduroa=
+m) and primary password(the one for mailbox) are needed to login.<br>Use th=
+e following command to login the registry:<br>docker login <a href=3D"http:=
+//registry.gitlab.cc-asp.fraunhofer.de" class=3D"external-link" rel=3D"nofo=
+llow">registry.gitlab.cc-asp.fraunhofer.de</a>:4567<br><br>Then go to the f=
+older with Dockerfile you want to build and Use the command to build the im=
+age (connector-core for example):<br>docker build -t <a href=3D"http://regi=
+stry.gitlab.cc-asp.fraunhofer.de" class=3D"external-link" rel=3D"nofollow">=
+registry.gitlab.cc-asp.fraunhofer.de</a>:4567/lselmi/gec/connector-core .<b=
+r><br>Use the following command to push the image to registry:<br>docker pu=
+sh <a href=3D"http://registry.gitlab.cc-asp.fraunhofer.de" class=3D"externa=
+l-link" rel=3D"nofollow">registry.gitlab.cc-asp.fraunhofer.de</a>:4567/lsel=
+mi/gec/connector-core<br><br>And use the command to pull the image (have to=
+ login the registry first): <br>docker pull <a href=3D"http://registry.gitl=
+ab.cc-asp.fraunhofer.de" class=3D"external-link" rel=3D"nofollow">registry.=
+gitlab.cc-asp.fraunhofer.de</a>:4567/lselmi/gec/connector-core</pre>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_2787_929668760.1574936113669--

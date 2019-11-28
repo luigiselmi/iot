@@ -1,0 +1,322 @@
+Date: Thu, 28 Nov 2019 11:08:49 +0100 (CET)
+Message-ID: <1143247113.2783.1574935729876@confluence-new.iais.fraunhofer.de>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2782_1819425638.1574935729875"
+
+------=_Part_2782_1819425638.1574935729875
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>GEC Security and Trust</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>GEC Security and Trust</h1>
+    <div class=3D"Section1">
+        <p>Security is a perspective of the IDS Reference Architecture Mode=
+l that has implications in all its different layers. Some documentation abo=
+ut the implementation of security levels in a connector is available at&nbs=
+p;<a href=3D"https://www.ids.isst.fraunhofer.de/confluence/display/ID/Secur=
+ity+Architecture" class=3D"external-link" rel=3D"nofollow">IDS Security (ID=
+S Lab)</a>. In GEC different levels of security can be supported by connect=
+ors in all these aspects</p>
+<ol>
+<li>Remote Attestation</li>
+<li>Secure communication&nbsp;</li>
+<li>Identity management&nbsp; and authentication</li>
+<li>Authorization and Usage control</li>
+</ol>
+<p>In addition, other aspects to take into account are</p>
+<ul>
+<li>Secure storage (encryption of stored data)</li>
+<li>Provenance (what is the source of the data ?)</li>
+</ul>
+<h1 id=3D"GECSecurityandTrust-RemoteAttestation">Remote Attestation</h1>
+<p>The hardware used for processing, storage or communication can mount a s=
+pecial chip, such as a <a href=3D"https://en.wikipedia.org/wiki/Trusted_Pla=
+tform_Module" class=3D"external-link" rel=3D"nofollow">Trusted Platform Mod=
+ule (</a><a href=3D"https://en.wikipedia.org/wiki/Trusted_Platform_Module" =
+class=3D"external-link" rel=3D"nofollow">TPM</a><a href=3D"https://en.wikip=
+edia.org/wiki/Trusted_Platform_Module" class=3D"external-link" rel=3D"nofol=
+low">)</a>, with a certificate released by its manufacturer to support disk=
+ encryption, hardware integrity. The software running in a connector as app=
+ must come from a trusted party, its integrity must be assessed and it shou=
+ld run in a isolated environment, e.g. a container, so that it will not be =
+able to access memory or file system allocated to other processes.</p>
+<h1 id=3D"GECSecurityandTrust-SecureCommunication">Secure Communication</h1=
+>
+<p>Secure communication relies on the use of the HTTPS protocol. It support=
+s confidentiality and message integrity via&nbsp;<a href=3D"https://en.wiki=
+pedia.org/wiki/Transport_Layer_Security" class=3D"external-link" rel=3D"nof=
+ollow">TLS</a>,&nbsp;a protocol based on the Public Key Infrastructure (PKI=
+).&nbsp;</p>
+<h1 id=3D"GECSecurityandTrust-IdentityManagementandAuthentication">Identity=
+ Management and Authentication</h1>
+<p>The IDS association has a body that is in charge of delivering certifica=
+tes or assigning the task to sub-authorities. An organization that is trust=
+ed by the IDS can create certificates for its own connectors.&nbsp;The pref=
+erred way of handling the authentication for all the connectors and compone=
+nts of the IDS ecosystem is to use a single sign-on system for all of them.=
+ There are different frameworks that can be used for authentication, one is=
+ the <span style=3D"letter-spacing: 0.0px;"><span style=3D"color: rgb(0,0,0=
+);">Dynamic Attribute Provisioning Service (</span></span>DAPS), developed =
+by Fraunhofer AISEC, and another one is <a href=3D"https://www.keycloak.org=
+/index.html" style=3D"letter-spacing: 0.0px;" class=3D"external-link" rel=
+=3D"nofollow">Keycloak</a>. They both are based on the OAuth2.0 protocol an=
+d use <a href=3D"https://jwt.io/" style=3D"letter-spacing: 0.0px;" class=3D=
+"external-link" rel=3D"nofollow">JSON Web Tokens (JWT)</a> to authenticate =
+data consumers, data providers and other participants.&nbsp;&nbsp;</p>
+<h2 id=3D"GECSecurityandTrust-DynamicAttributeProvisioningService"><span st=
+yle=3D"color: rgb(0,0,0);">Dynamic Attribute Provisioning Service</span></h=
+2>
+<p>The DAPS is loaded with connectors' certificate with their public keys p=
+lus attributes about the organization that manages or owns the connector.</=
+p>
+<h2 id=3D"GECSecurityandTrust-Keycloak"><span style=3D"color: rgb(85,85,85)=
+;">Keycloak</span></h2>
+<p>Keycloak is an open source framework for authentication and authorizatio=
+n management. It is based on the OAuth2.0 protocol. With Keycloak a consume=
+r connector that wants to fetch a static resource, e.g. a file, can send an=
+ ArtifactRequestMessage to a data provider with a JWT token that has been p=
+reviously obtained from Keycloak. The provider connector verify the token s=
+ending a message to Keycloak. If the token is valid, i.e. the sender is kno=
+wn and the token is not expired, the provider will process the request and,=
+ if the consumer is authorized to access the resources, it will be sent to =
+it in the response.</p>
+<h1 id=3D"GECSecurityandTrust-AuthorizationandUsageControl">Authorization a=
+nd Usage Control</h1>
+<p>Authorization can be implemented as local rules in the connector, e.g. A=
+ccess Control List, or by centralized systems, e.g. by roles set on Keycloa=
+k.</p>
+<h1 id=3D"GECSecurityandTrust-Infrastructure">Infrastructure</h1>
+<p>A list of infrastructure technologies for each of the security perspecti=
+ves&nbsp;</p>
+<ol>
+<li>AISEC Trusted 3rd Party (RAT Repository)</li>
+<li>Let's Encrypt or IDS Certificates</li>
+<li>DAPS / Keycloak</li>
+<li>Access Control List / LUCON</li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_2782_1819425638.1574935729875--

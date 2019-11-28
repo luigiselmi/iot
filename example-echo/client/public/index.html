@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+	<body>		
+		<h1>A Camel Routing example</h1>
+		<button type="submit" id="getButton">GET REQUEST</button>
+		<div id="getDiv">Here is the server data!!</div>
+		<br>
+		<!-- <button type="submit" id="postButton">POST REQUEST</button>
+		<div id="postDiv">Here is the server data!!</div> -->
+		<script src="./browserMqtt.js"></script>
+		<script>
+		// var mqtt = require('mqtt');
+		var mqtt_client = mqtt.connect('mqtt://mqtt-broker');
+		var TOPIC = 'mqtt/testQueue';
+
+		// React on MQTT connection
+		mqtt_client.on('connect', () => {
+    		console.log("Connected to MQTT broker")
+    		mqtt_client.subscribe(TOPIC)
+		});
+
+		// React on received MQTT messages
+		mqtt_client.on('message', (topic, message) => {
+  			switch (topic) {
+    			case TOPIC:
+      			console.log('Published and Received %s', message);
+      			break;
+    		default:
+      			console.log('No handler for topic %s', topic);
+  			}
+		})
+
+			$('#getButton').click(function () {
+        		console.log("get button clicked!!");
+    //     		$.post('http://localhost:8085/postRequest', function (error, response, body) {
+    //     			console.log('body:', body);
+				// 	$('#getDiv').text(body.responseText);
+				// });
+
+				mqtt_client.publish(TOPIC,  String(Math.random() * (35 - 10) + 10));
+    		});
+/*
+    		$('#postButton').click(function () {
+        		console.log("post button clicked!!");
+        		$.post('idsclient://client-core:9292/', function (error, response, body) { 
+        			console.log('body:', body);
+					$('#postDiv').text(body.responseText);
+				});        		
+    		});*/
+		</script>
+	</body>
+</html>

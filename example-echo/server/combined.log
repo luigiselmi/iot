@@ -1,0 +1,1 @@
+{"service":"user-service","level":"info","message":"REST API listening at http://%s:%s"}
