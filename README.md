@@ -44,3 +44,14 @@ is based on the same Docker image. The java server's core connector java keystor
 volumes. As for the client application, a docker-compose file is provided to execute all the server application's services. All the server containers are member 
 of a docker network named "servernet". The server core connector is a member of another docker network, named "webnet", as well so that the two core containers can
 communicate using their containers' names.    
+
+## IoT Use Case: Monitoring a production pipeline
+This section presents a draft use case of an industrial setting where machines are used in a production pipeline. Each machine is connected to sensors and 
+actuators for monitoring and control. As an example, the working temperature of a machine must be monitored to be sure it does not exceed a certain threshold. 
+The sensors are connected to gateways, where trusted connectors have been deployed. A trusted connector is configured to collect and aggregate temperature data 
+from a set of sensors in a time window, e.g. of one minute, and send the aggregated result to a topic created on an Apache Kafka cluster. The Kafka topic is fed 
+by trusted consumer connectors that can apply some transformation, e.g. from text to a binary format, before forwarding the data to a Kafka topic. The messages 
+sent to the Kafka topics are integrated and processed at event time by, e.g. Apache Flink jobs, to provide an integrated overview of the status of each machine 
+and of the pipeline. The output of the processing is finally sent to a data sink for monitoring, predictive maintenance, visualization, analytics.
+
+![IoT example](docs/iot_example.png)
