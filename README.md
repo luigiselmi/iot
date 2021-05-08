@@ -45,6 +45,8 @@ volumes. As for the client application, a docker-compose file is provided to exe
 of a docker network named "servernet". The server core connector is a member of another docker network, named "webnet", as well so that the two core containers can
 communicate using their containers' names.    
 
+![IoT example](docs/iot_example.png)
+
 ## IoT Use Case: Monitoring a production pipeline
 This section presents a draft use case of an industrial setting where machines are used in a production pipeline. Each machine is connected to sensors and 
 actuators for monitoring and control. As an example, the working temperature of a machine must be monitored to be sure it does not exceed a certain threshold. 
@@ -54,4 +56,10 @@ by trusted consumer connectors that can apply some transformation, e.g. from tex
 sent to the Kafka topics are integrated and processed at event time by, e.g. Apache Flink jobs, to provide an integrated overview of the status of each machine 
 and of the pipeline. The output of the processing is finally sent to a data sink for monitoring, predictive maintenance, visualization, analytics.
 
-![IoT example](docs/iot_example.png)
+![IoT Kafka connector](docs/iot_kafka_connector.png)
+
+The use case architecture, shown on the picture, is based on a trusted provider connector and a trusted consumer connector. The picture shows hosts, connectors, 
+containers and the networks they are a member of. The connector may be provided by the gateway’s manufacturer and installed on the factory’s machines. The factory’s 
+manager can trust the gateways because they come equipped with their certificates provided by a certified member of the IDS. The consumer connector feeds a Kafka 
+topic as described. The rest of the architecture is quite common in stream, or unbound, data processing and is referred to as Kappa architecture, and as said, it 
+includes a distributed processing system such as Apache Flink or Spark and a data sink such as Cassandra or Solr. 
