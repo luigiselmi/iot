@@ -42,7 +42,7 @@ The services of provider and consumer should be created on the stack "gec" for e
     $ docker stack deploy -c docker-compose-provider2.yaml gec 
 
 
-The following link https://docs.docker.com/get-started/part4/ shows the detail how services running on swarm. 
+Follow the [Docker documetation](https://docs.docker.com/get-started/part4/) to learn the details of how services run on swarm mode. 
 
 All configurations of services are also in those files, docker-compose-provider.yaml and docker-compose-consumer.yaml. Provider and consumer are separately 
 deployed on two nodes. The overlay network should be external and attachable. 
@@ -81,9 +81,9 @@ Add worker node 
 
     $ docker swarm <join-token> worker   
 
-(Then swarm will show a command, run this command on worker node) 
+The swarm will show a command, run this command on worker node. 
 
-When deploying a new container on a swarm node remember to check whether its image is available on that node. If not you have first to pull it, if the 
+When deploying a new container on a swarm node remember to check whether its image is available on that node. If not, you have first to pull it, if the 
 image is available from a docker repository, or build it from its docker file.  
 
  
